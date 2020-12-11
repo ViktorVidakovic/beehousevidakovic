@@ -24,10 +24,10 @@ header{
 	position:absolute;
 	background-color:#fcfcfc;
 	animation-name:menu;
+	z-index:1;
 	animation-duration:0.7s;
 	animation-fill-mode:forwards;
-	clip-path: ellipse(99% 88% at 16% -1%);
-
+	clip-path: ellipse(100% 100% at 30% 0%);
 }
 .container{
 	height:100%;
@@ -59,6 +59,7 @@ header{
 	
 }
 nav{
+	margin-top:0.3%;
 	width:80%;
 	height:inherit;
 	display:flex;
@@ -73,7 +74,6 @@ nav ul{
 	flex-direction:row;
 	margin:1.6% 0%;
 	margin-left:30%;
-	margin-right:7%;
 }
 nav ul a li{
 	margin-right:4%;
@@ -107,7 +107,6 @@ nav ul a:hover{
 	height:100%;
 	background-repeat:no-repeat;
 	position:absolute;
-	z-index:-1;
 	animation-name:background;
 	animation-duration:0.7s;
 	animation-fill-mode:forwards;
@@ -166,10 +165,10 @@ nav ul a:hover{
 #home{
 	width:80%;
 	height:65%;
-	margin:10% auto;
+	margin:3% auto;
 	margin-bottom:0%;
 }
-article{
+#home article{
 	width:21.1%;
 	height:75%;
 	border:1px #c2c2c2 solid;
@@ -270,7 +269,7 @@ footer p{
 	width:70%;
 	height:75%;
 	padding:3% 4%;
-	margin:5.8% auto;
+	margin:6% auto;
 	background-color:rgba(255,255,255,.75);
 	border-radius:9px;
 	animation-name:transparent;
@@ -282,9 +281,9 @@ footer p{
 	font-size:18px;
 }
 .small{
-	margin-top:11%;
+	margin-top:9.5%;
 	width:60%;
-	height:50%;
+	height:60%;
 	border-radius:20px;
 }
 #kontakt{
@@ -294,9 +293,10 @@ footer p{
     justify-content: space-evenly;
 }
 #forma{
-	width:90%;
+	width:40%;
 	background-color:rgba(255,255,255,0);
-	border:0px;
+	margin-top:2%;
+	float:left;
 }
 #forma table{
 	font-size:23px;
@@ -306,8 +306,62 @@ footer p{
 	padding-bottom:2%;
 }
 #forma input[type="text"], #forma input[type="email"], #forma select {
-    width: 300px;
+    width: 80%;
+	padding:2% 0%;
     background: none;
     border: none;
     border-bottom: 1px #d2d2d2 solid;
+}
+#forma th{
+	font-size:40px;
+}
+#forma tbody{
+	font-size:20px;
+}
+textarea{
+	width:80%;
+	padding:8%;
+	background-color:rgba(255,255,255,0.4);
+	border:1px #b2b2b2 solid;
+}
+#podaci{
+	float:right;
+	
+}
+#podaci i{
+	font-size:20px;
+	color:#b2b2b2;
+}
+.img{
+	width:30%;
+	height:100%;
+	float:left;
+	margin-right:2%;
+	margin-bottom:2%;
+	filter:saturate(0%);
+	transition:filter 0.6s;
+	border-radius:20px;
+}
+.img:hover{
+	filter:saturate(100%);
+}
+.img:first-child{
+	margin-left:2.5%;
+}
+#gallery{
+	margin-top:4%;
+}
+#gallery article{
+	width:90%;
+	height:40%;
+	margin:0% auto;
+}
+input{
+	padding-top:1%;
+}
+.button{
+	width:25%;
+	padding:2% 0%;
+	background-color:rgba(255,255,255,0.4);
+	border:1px #b2b2b2 solid;
 }

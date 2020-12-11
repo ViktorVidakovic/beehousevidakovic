@@ -21,9 +21,16 @@
 		width:260px;
 		height:42px;
 	}
-	img[src="../assets/img/logo.png"]{
-		width:220px;
-		height:30px;
+}
+@media screen and (max-width:1282px){
+	.container2 p{
+		font-size:16px;
+	}
+	.container2 h2{
+		font-size:22px;
+	}
+	.container2 h3{
+		font-size:20px;
 	}
 }
 @media screen and (max-width:1180px){
@@ -37,9 +44,14 @@
 		width:240px;
 		height:36px;
 	}
-	img[src="../assets/img/logo.png"]{
-		width:220px;
-		height:30px;
+	.container2 p{
+		font-size:15px;
+	}
+	.container2 h2{
+		font-size:20px;
+	}
+	.container2 h3{
+		font-size:18px;
 	}
 }
 @media screen and (max-width:1041px){
@@ -50,10 +62,6 @@
 		font-size:12px;
 	}
 	img[src="assets/img/logo.png"]{
-		width:220px;
-		height:30px;
-	}
-	img[src="../assets/img/logo.png"]{
 		width:220px;
 		height:30px;
 	}
