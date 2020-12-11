@@ -1,0 +1,67 @@
+@media screen and (max-width:1601px){
+	header{
+		height:9%;
+	}
+	nav ul a{
+		font-size:17px;
+	}
+	img[src="../img/logo.png"]{
+		width:220px;
+		height:30px;
+	}
+}
+@media screen and (max-width:1330px){
+	header{
+		height:8%;
+	}
+	nav ul a{
+		font-size:90%;
+	}
+	img[src="assets/img/logo.png"]{
+		width:260px;
+		height:42px;
+	}
+	img[src="../assets/img/logo.png"]{
+		width:220px;
+		height:30px;
+	}
+}
+@media screen and (max-width:1180px){
+	header{
+		height:7%;
+	}
+	nav ul a{
+		font-size:12px;
+	}
+	img[src="assets/img/logo.png"]{
+		width:240px;
+		height:36px;
+	}
+	img[src="../assets/img/logo.png"]{
+		width:220px;
+		height:30px;
+	}
+}
+@media screen and (max-width:1041px){
+	header{
+		height:6%;
+	}
+	nav ul li{
+		font-size:12px;
+	}
+	img[src="assets/img/logo.png"]{
+		width:220px;
+		height:30px;
+	}
+	img[src="../assets/img/logo.png"]{
+		width:220px;
+		height:30px;
+	}
+}
+@media screen and (max-width:940px){
+		nav ul li{
+		font-size:11px;
+	}
+}
+
+
