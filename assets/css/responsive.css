@@ -9,6 +9,9 @@
 		width:220px;
 		height:30px;
 	}
+	#home article p{
+	font-size:22px;	
+	}
 }
 @media screen and (max-width:1330px){
 	header{
@@ -18,7 +21,7 @@
 		font-size:90%;
 	}
 	img[src="assets/img/logo.png"]{
-		width:260px;
+		width:240px;
 		height:42px;
 	}
 }
@@ -41,7 +44,7 @@
 		font-size:12px;
 	}
 	img[src="assets/img/logo.png"]{
-		width:240px;
+		width:220px;
 		height:36px;
 	}
 	.container2 p{
@@ -53,6 +56,9 @@
 	.container2 h3{
 		font-size:18px;
 	}
+	#home article p{
+	font-size:18px;	
+	}
 }
 @media screen and (max-width:1041px){
 	header{
@@ -62,13 +68,17 @@
 		font-size:12px;
 	}
 	img[src="assets/img/logo.png"]{
-		width:220px;
+		width:180px;
 		height:30px;
 	}
 }
 @media screen and (max-width:940px){
 		nav ul li{
 		font-size:11px;
+	}
+	img[src="assets/img/logo.png"]{
+		width:160px;
+		height:24px;
 	}
 }
 
