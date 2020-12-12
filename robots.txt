@@ -1,4 +1,3 @@
 User-agent:*
 Disallow:/admin/
 Disallow:/bugs/
-Sitemap: https://www.viktorvidakovic.github.io/beehousevidakovic/sitemap.xml
