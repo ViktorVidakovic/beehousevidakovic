@@ -2,6 +2,10 @@
 	header{
 		height:9%;
 	}
+	.small{
+		height:65%;
+		margin-top:11%;
+	}
 	nav ul a{
 		font-size:17px;
 	}
@@ -12,17 +16,29 @@
 	#home article p{
 	font-size:22px;	
 	}
+	#home{
+		height:50%;
+	}
 }
 @media screen and (max-width:1330px){
 	header{
 		height:8%;
 	}
 	nav ul a{
-		font-size:90%;
+		font-size:16px;
+	}
+	.small{
+		height:70%;
 	}
 	img[src="assets/img/logo.png"]{
 		width:240px;
 		height:42px;
+	}
+	#home article p{
+	font-size:20px;	
+	}
+	#home{
+		height:50%;
 	}
 }
 @media screen and (max-width:1282px){
@@ -34,6 +50,12 @@
 	}
 	.container2 h3{
 		font-size:20px;
+	}
+	#home article p{
+	font-size:18px;	
+	}
+	#home{
+		height:50%;
 	}
 }
 @media screen and (max-width:1180px){
@@ -47,6 +69,9 @@
 		width:220px;
 		height:36px;
 	}
+	.small{
+		width:65%;
+	}
 	.container2 p{
 		font-size:15px;
 	}
@@ -57,14 +82,17 @@
 		font-size:18px;
 	}
 	#home article p{
-	font-size:18px;	
+	font-size:17px;	
+	}
+	#home{
+		height:50%;
 	}
 }
 @media screen and (max-width:1041px){
 	header{
 		height:6%;
 	}
-	nav ul li{
+	nav ul a{
 		font-size:12px;
 	}
 	img[src="assets/img/logo.png"]{
@@ -73,7 +101,7 @@
 	}
 }
 @media screen and (max-width:940px){
-		nav ul li{
+		nav ul a{
 		font-size:11px;
 	}
 	img[src="assets/img/logo.png"]{

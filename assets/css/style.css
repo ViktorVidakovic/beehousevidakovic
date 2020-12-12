@@ -27,7 +27,7 @@ header{
 	z-index:1;
 	animation-duration:0.7s;
 	animation-fill-mode:forwards;
-	clip-path: ellipse(100% 100% at 30% 0%);
+	clip-path: ellipse(110% 100% at 30% 0%);
 }
 .container{
 	height:100%;
@@ -139,7 +139,7 @@ nav ul a:hover{
 	left:38%;
 	margin-top:6%;
 	padding:4.5%;
-	padding-top:1.5%;
+	padding-top:2.5%;
 	text-transform:uppercase;
 	color:#707068;
 	font-weight:700;
@@ -203,7 +203,6 @@ footer{
 	background-color:#f2f2f2;
 	text-align:center;
 	border-top:2px #c2c2c2 solid;
-	padding-top:1%;
 }
 footer #frame{
 	box-sizing:	border-box;
@@ -222,7 +221,7 @@ footer.button{
 }
 footer p{
 	margin-left:11.1%;
-	font-size:25px;
+	font-size:20px;
 }
 #icons{
 	width:30%;
@@ -315,22 +314,25 @@ footer p{
     background: none;
     border: none;
     border-bottom: 1px #d2d2d2 solid;
-	color:#;
 	margin-top:2%;
 	margin-bottom:4%;
+	color:#707068;
+	font-size:18px;
 }
 #forma th{
 	font-size:40px;
+	text-align:left;
 }
 #forma tbody{
 	font-size:20px;
 }
 textarea{
 	width:80%;
-	height:100px;
+	height:80px;
 	background-color:rgba(255,255,255,0.4);
 	border:1px #b2b2b2 solid;
 	margin-bottom:5%;
+	resize:none;
 }
 #podaci{
 	float:right;
@@ -383,8 +385,8 @@ textarea{
 #autor{
 	float:left;
 	width:45%;
-	height:80%;
 	margin:5%;
+	height:80%;
 }
 #autor img{
 	border:20px rgba(255,255,255,.4) inset;
@@ -395,4 +397,30 @@ textarea{
 	width:40%;
 	margin-top:4.7%;
 	margin-right:3%;
+}
+#trazi{
+	display:flex;
+	width:20%;
+	height:80%;
+	float:right;
+	margin-left:5%;
+	margin-top:1%;
+}
+#trazi input[type="text"]{
+    border: 1px #b2b2b2 solid;
+	margin-top:0.5%;
+	margin-left:27%;
+	width:42%;
+	float:right;
+	height:26px;
+}
+#trazi p{
+	width:12%;
+	font-size:25px;
+	text-align:right;
+}
+.fa-search{
+	height:40%;
+	margin-top:1.5%;
+	margin-left:2%;
 }

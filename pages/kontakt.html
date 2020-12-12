@@ -45,7 +45,7 @@
 										<tr>
 											<td>
 												<label for="ime">Vaše ime: </label><br/>
-												<input type="text" name="ime" id="ime" placeholder="Unesite vaše ime i prezime" value="" />
+												<input type="text" name="ime" id="ime" placeholder="Unesite vaše ime i prezime" value="" maxlength="30"/>
 											</td>
 										</tr>
 										<tr>
@@ -70,7 +70,7 @@
 										<tr>
 											<td>
 												<label for="email">Vaš e-mail:<br/> </label>
-												<input type="email" name="email" id="email" placeholder="Unesite Vašu e-mail adresu" value=""/>
+												<input type="email" name="email" id="email" placeholder="Unesite Vašu e-mail adresu" value="" maxlength="30"/>
 											</td>
 										</tr>
 										<tr>
@@ -126,7 +126,11 @@
 						</li>
 					</ul>
 				</div>
-				<p>Copyright &copy; BeeHouse Vidaković</p>
+				<p>BeeHouse Vidaković &copy; All rights reserved</p>
+				<div id="trazi">
+					<p>Pretraga: </p>
+					<input type="text" name="search1"><i id="search1" class="fas fa-search"></i><div class="cleaner"></div>
+				</div>
 				<div class="cleaner"></div>
 			</div>
 		</footer>

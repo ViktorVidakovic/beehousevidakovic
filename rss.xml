@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+    <channel>
+        <title>BeeHouse Vidaković</title>
+        <link />
+        <description>Predstavljamo Vam naše aktivnosti</description>
+        <item>
+            <title>Nova forma za kontaktiranje</title>
+            <link />
+            <description>Možete nam pisati pomoću nove forme u sekciji Kontakt.</description>
+            <language>srb</language>
+        </item>
+        <item>
+            <title>Galerija</title>
+            <link />
+            <description>Dodata je nova slika u galeriji.</description>
+            <language>srb</language>
+        </item>
+        <item>
+            <title>Društvene mreže</title>
+            <link />
+            <description>Dodat je link ka našoj društvenoj mreži Youtube.</description>
+            <language>srb</language>
+        </item>
+    </channel>
+</rss>
